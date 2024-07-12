@@ -1,9 +1,17 @@
 services:
-  mongodb:
-    image: 'mongo:latest'
+  mysql-db:
+    image: mysql:8.0.38
+    restart: always
     environment:
-      - 'MONGO_INITDB_DATABASE=mydatabase'
-      - 'MONGO_INITDB_ROOT_PASSWORD=secret'
-      - 'MONGO_INITDB_ROOT_USERNAME=root'
+      MYSQL_DATABASE: 'order'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'test'
+      MYSQL_ROOT_PASSWORD: 'test'
     ports:
-      - '27017'
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+volumes:
+  my-db:

@@ -53,6 +53,9 @@ dependencies {
 	implementation("software.amazon.awssdk:sns:2.25.53")
 	implementation("software.amazon.awssdk:core:2.25.53")
 
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	runtimeOnly("com.mysql:mysql-connector-j:9.0.0")
+
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.1")
 
 	testImplementation("io.mockk:mockk:1.13.11")
