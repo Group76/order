@@ -12,7 +12,7 @@ data class OrderEntity (
     val clientId: String = "",
 
     @Enumerated(EnumType.STRING)
-    val status: OrderStatusEnum = OrderStatusEnum.RECEIVED,
+    var status: OrderStatusEnum = OrderStatusEnum.RECEIVED,
 
     var totalPrice: Double = 0.0,
     val createdDate: OffsetDateTime = OffsetDateTime.now(),
