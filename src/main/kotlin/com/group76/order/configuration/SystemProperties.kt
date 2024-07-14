@@ -7,15 +7,11 @@ import org.springframework.context.annotation.Configuration
 @ConfigurationProperties(prefix = "system")
 class SystemProperties {
     var idService: String = ""
-    val collection: CollectionConfiguration = CollectionConfiguration()
     val sns: SnsConfiguration = SnsConfiguration()
-
-    class CollectionConfiguration{
-        var order: String = ""
-    }
 
     class SnsConfiguration{
         var order: String = ""
+        var orderCancelled: String = ""
     }
 }
 

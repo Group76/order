@@ -36,7 +36,7 @@ class CreateOrderUseCaseImpl(
                 createdDate = OffsetDateTime.now(),
                 totalPrice = 0.0,
                 updatedDate = OffsetDateTime.now(),
-                status = OrderStatusEnum.RECEIVED,
+                status = OrderStatusEnum.PENDING,
                 clientId = request.clientId.toString()
             )
 
@@ -68,7 +68,8 @@ class CreateOrderUseCaseImpl(
                     orderId = result.id,
                     status = result.status
                 ),
-                subject = "Order Created"
+                subject = "Order Created",
+                id = result.id.toString()
             )
 
             return BaseResponse(

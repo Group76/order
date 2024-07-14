@@ -16,8 +16,21 @@ data class OrderEntity (
 
     var totalPrice: Double = 0.0,
     val createdDate: OffsetDateTime = OffsetDateTime.now(),
-    val updatedDate: OffsetDateTime = OffsetDateTime.now(),
+    var updatedDate: OffsetDateTime = OffsetDateTime.now(),
 
     @OneToMany(mappedBy = "order", cascade = [CascadeType.ALL], orphanRemoval = true)
-    var items: List<OrderItemEntity> = mutableListOf()
-)
+    var items: List<OrderItemEntity> = mutableListOf(),
+
+    var cancelledReason: String? = null
+){
+    fun updateStatus(status: OrderStatusEnum){
+        this.status = status
+        this.updatedDate = OffsetDateTime.now()
+    }
+
+    fun cancelled(reason: String){
+        this.status = OrderStatusEnum.CANCELLED
+        this.updatedDate = OffsetDateTime.now()
+        cancelledReason = reason
+    }
+}

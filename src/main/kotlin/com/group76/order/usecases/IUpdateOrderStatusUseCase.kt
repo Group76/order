@@ -4,7 +4,7 @@ import com.group76.order.entities.OrderStatusEnum
 import com.group76.order.entities.response.BaseResponse
 import com.group76.order.entities.response.GetOrderResponse
 
-interface IUpdateOrderStatus {
+interface IUpdateOrderStatusUseCase {
     fun execute(
         id: Long,
         status: OrderStatusEnum

@@ -8,19 +8,26 @@ import com.group76.order.entities.response.GetOrderItemResponse
 import com.group76.order.entities.response.GetOrderResponse
 import com.group76.order.gateways.IOrderRepository
 import com.group76.order.services.ISnsService
-import com.group76.order.usecases.IUpdateOrderStatus
+import com.group76.order.usecases.IUpdateOrderStatusUseCase
 import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Service
 import java.util.*
 
 @Service
-class UpdateOrderStatusImpl(
+class UpdateOrderStatusUseCaseImpl(
     private val orderRepository: IOrderRepository,
     private val snsService: ISnsService,
     private val systemProperties: SystemProperties
-) : IUpdateOrderStatus {
+) : IUpdateOrderStatusUseCase {
     override fun execute(id: Long, status: OrderStatusEnum): BaseResponse<GetOrderResponse> {
         try {
+            if (status == OrderStatusEnum.CANCELLED){
+                return BaseResponse(
+                    data = null,
+                    error = BaseResponse.BaseResponseError("Order can't be cancelled in this method, use DELETE"),
+                    statusCodes = HttpStatus.BAD_REQUEST
+                )
+            }
             val resultFind = orderRepository.findById(id)
 
             if (resultFind.isEmpty) return BaseResponse(
@@ -31,10 +38,8 @@ class UpdateOrderStatusImpl(
 
             val possibleStatus: Array<OrderStatusEnum> = when (resultFind.get().status) {
                 OrderStatusEnum.PENDING -> arrayOf(
-                    OrderStatusEnum.CANCELLED,
                     OrderStatusEnum.RECEIVED
                 )
-
                 OrderStatusEnum.CANCELLED -> arrayOf()
                 OrderStatusEnum.RECEIVED -> arrayOf(OrderStatusEnum.READY)
                 OrderStatusEnum.PREPARATION -> arrayOf(OrderStatusEnum.READY)
@@ -50,7 +55,7 @@ class UpdateOrderStatusImpl(
                 )
             }
 
-            resultFind.get().status = status
+            resultFind.get().updateStatus(status)
             val result = orderRepository.save(resultFind.get())
 
             snsService.publishMessage(
@@ -59,7 +64,8 @@ class UpdateOrderStatusImpl(
                     orderId = result.id,
                     status = result.status
                 ),
-                subject = "Order Updated"
+                subject = "Order Updated",
+                id = result.id.toString()
             )
 
             return BaseResponse(

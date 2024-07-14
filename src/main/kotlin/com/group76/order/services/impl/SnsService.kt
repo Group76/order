@@ -1,6 +1,7 @@
 package com.group76.order.services.impl
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.group76.order.entities.request.OrderCancelledMessageSnsRequest
 import com.group76.order.entities.request.OrderMessageSnsRequest
 import com.group76.order.services.ISnsService
 import org.springframework.stereotype.Service
@@ -21,7 +22,7 @@ class SnsService : ISnsService {
         .credentialsProvider(DefaultCredentialsProvider.create())
         .build()
 
-    override fun publishMessage(topicArn: String, message: OrderMessageSnsRequest, subject: String): SdkHttpResponse {
+    override fun publishMessage(topicArn: String, message: Any, subject: String, id: String): SdkHttpResponse {
         val messageJson = objectMapper.writeValueAsString(message)
 
         val publishRequest = PublishRequest.builder()
@@ -29,7 +30,7 @@ class SnsService : ISnsService {
             .message(messageJson)
             .messageGroupId("order")
             .subject(subject)
-            .messageDeduplicationId(message.orderId.toString())
+            .messageDeduplicationId(id)
             .build()
 
         val publishResponse = snsClient.publish(publishRequest)

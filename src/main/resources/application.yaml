@@ -33,7 +33,6 @@ spring:
 
 system:
   id-service: order-api
-  collection:
-    order: Order
   sns:
     order: order.fifo
+    order-cancelled: order-cancelled.fifo
