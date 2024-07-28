@@ -25,9 +25,9 @@ spring:
       WRITE_DATES_AS_TIMESTAMPS: false
       WRITE_DATES_WITH_ZONE_ID: true
   datasource:
-    url: ${mySqlUrl}
-    username: ${mySqlUser}
-    password: ${mySqlPassword}
+    url: ${sqlUrl}
+    username: ${sqlUser}
+    password: ${sqlPassword}
   config:
     import:
       - aws-parameterstore:/config/order-api_prod/
@@ -44,3 +44,8 @@ system:
     order: order.fifo
     order-client-notification: order-client-notification.fifo
     order-kitchen-notification: order-kitchen-notification.fifo
+
+mercadoPago:
+  userId: ${mercadoPagoUserId}
+  testToken: ${mercadoPagoTestToken}
+  externalPosId: ${mercadoPagoExternalPosId}

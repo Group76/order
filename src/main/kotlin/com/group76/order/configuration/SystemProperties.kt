@@ -18,6 +18,8 @@ class SystemProperties {
 
     class MercadoPagoConfiguration{
         var userId: String = ""
+        var testToken: String = ""
+        var externalPosId: String = ""
     }
 }
 

@@ -10,6 +10,7 @@ import com.group76.order.entities.response.BaseResponse
 import com.group76.order.entities.response.GetOrderItemResponse
 import com.group76.order.entities.response.GetOrderResponse
 import com.group76.order.gateways.IOrderRepository
+import com.group76.order.services.IMercadoPagoService
 import com.group76.order.services.ISnsService
 import com.group76.order.usecases.ICreateOrderUseCase
 import org.springframework.http.HttpStatus
@@ -22,6 +23,7 @@ class CreateOrderUseCaseImpl(
     private val orderRepository: IOrderRepository,
     private val snsService: ISnsService,
     private val systemProperties: SystemProperties,
+    private val mercadoPagoService: IMercadoPagoService
 ) : ICreateOrderUseCase {
     override fun execute(request: CreateOrderRequest): BaseResponse<GetOrderResponse> {
         try {
@@ -37,7 +39,8 @@ class CreateOrderUseCaseImpl(
                 totalPrice = 0.0,
                 updatedDate = OffsetDateTime.now(),
                 status = OrderStatusEnum.PENDING,
-                clientId = request.clientId.toString()
+                clientId = request.clientId.toString(),
+                externalId = UUID.randomUUID().toString()
             )
 
             val items = mutableListOf<OrderItemEntity>()
@@ -59,19 +62,33 @@ class CreateOrderUseCaseImpl(
             order.totalPrice = totalPrice
             order.items = items
 
+            val createQrResponse = mercadoPagoService.createQrCode(order)
+                ?: return BaseResponse(
+                    data = null,
+                    statusCodes = HttpStatus.INTERNAL_SERVER_ERROR,
+                    error = BaseResponse.BaseResponseError("Internal server error")
+                )
 
+            order.qrCode = createQrResponse.qrData
             val result = orderRepository.save(order)
-
-            //TODO criar pagamento
+            val snsMessage = OrderMessageSnsRequest(
+                orderId = result.id,
+                status = result.status,
+                clientId = result.clientId,
+                qrCode = result.qrCode
+            )
 
             snsService.publishMessage(
                 topicArn = snsService.getTopicArnByName(systemProperties.sns.order)!!,
-                message = OrderMessageSnsRequest(
-                    orderId = result.id,
-                    status = result.status,
-                    clientId = result.clientId
-                ),
+                message = snsMessage,
                 subject = "Order Created",
+                id = result.id.toString()
+            )
+
+            snsService.publishMessage(
+                topicArn = snsService.getTopicArnByName(systemProperties.sns.orderClientNotification)!!,
+                message = snsMessage,
+                subject = "Order Updated",
                 id = result.id.toString()
             )
 

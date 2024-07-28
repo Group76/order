@@ -21,7 +21,9 @@ data class OrderEntity (
     @OneToMany(mappedBy = "order", cascade = [CascadeType.ALL], orphanRemoval = true)
     var items: List<OrderItemEntity> = mutableListOf(),
 
-    var cancelledReason: String? = null
+    var cancelledReason: String? = null,
+    var qrCode: String? = null,
+    val externalId: String
 ){
     fun updateStatus(status: OrderStatusEnum){
         this.status = status
