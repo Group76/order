@@ -30,9 +30,19 @@ spring:
     url: jdbc:mysql://localhost:3306/order
     username: root
     password: test
+  cloud:
+    openfeign:
+      client:
+        config:
+          mercadoPago:
+            url: https://api.mercadopago.com
 
 system:
   id-service: order-api
   sns:
     order: order.fifo
-    order-cancelled: order-cancelled.fifo
+    order-client-notification: order-client-notification.fifo
+    order-kitchen-notification: order-kitchen-notification.fifo
+
+mercadoPago:
+  userId: 39527093

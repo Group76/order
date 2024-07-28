@@ -1,8 +1,9 @@
 package com.group76.order.controller.v1
 
 import com.group76.order.controller.v1.mapping.UrlMapping
-import com.group76.order.entities.request.CreateOrderRequest
+import com.group76.order.entities.request.mercadoPago.PaymentNotificationRequest
 import com.group76.order.entities.response.GetOrderResponse
+import com.group76.order.usecases.IPaymentNotificationUseCase
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.media.Content
 import io.swagger.v3.oas.annotations.media.Schema
@@ -16,13 +17,16 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping(UrlMapping.Version.V1 + UrlMapping.Resource.PAYMENT)
-class MercadoPagoController {
+class PaymentNotificationController(
+    val paymentNotificationUseCase: IPaymentNotificationUseCase
+) {
     @PostMapping(
-        name = "CreateOrder"
+        name = "Notification",
+        path = ["/notification"]
     )
     @Operation(
-        method = "CreateOrder",
-        description = "Create a order",
+        method = "Payment Notification",
+        description = "Payment Notification",
         responses = [
             ApiResponse(
                 description = "OK", responseCode = "200", content = [
@@ -41,14 +45,10 @@ class MercadoPagoController {
             )
         ]
     )
-    fun createOrder(
-        @Valid @RequestBody request: CreateOrderRequest
+    fun paymentNotification(
+        @Valid @RequestBody request: PaymentNotificationRequest
     ): ResponseEntity<Any> {
-        val response = createOrderUseCase.execute(request)
-
-        return ResponseEntity(
-            response.error ?: response.data,
-            response.statusCodes
-        )
+        paymentNotificationUseCase.execute(request)
+        return ResponseEntity.ok().build()
     }
 }

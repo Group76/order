@@ -57,7 +57,9 @@ dependencies {
 	runtimeOnly("com.mysql:mysql-connector-j:8.2.0")
 
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.1")
-	implementation("com.mercadopago:sdk-java:2.1.24")
+	implementation("org.springframework.cloud:spring-cloud-starter-openfeign:4.1.3"){
+		exclude(group = "commons-fileupload", module = "commons-fileupload")
+	}
 
 	testImplementation("io.mockk:mockk:1.13.11")
 	testImplementation("org.junit.jupiter:junit-jupiter-api")

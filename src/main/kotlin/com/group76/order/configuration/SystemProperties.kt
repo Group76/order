@@ -8,11 +8,16 @@ import org.springframework.context.annotation.Configuration
 class SystemProperties {
     var idService: String = ""
     val sns: SnsConfiguration = SnsConfiguration()
+    val mercadoPagoConfiguration = MercadoPagoConfiguration()
 
     class SnsConfiguration{
         var order: String = ""
         var orderClientNotification: String = ""
         var orderKitchenNotification: String = ""
+    }
+
+    class MercadoPagoConfiguration{
+        var userId: String = ""
     }
 }
 

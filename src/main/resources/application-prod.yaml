@@ -31,9 +31,16 @@ spring:
   config:
     import:
       - aws-parameterstore:/config/order-api_prod/
+  cloud:
+    openfeign:
+      client:
+        config:
+          mercadoPago:
+            url: https://api.mercadopago.com
 
 system:
   id-service: order-api
   sns:
     order: order.fifo
-    order-cancelled: order-cancelled.fifo
+    order-client-notification: order-client-notification.fifo
+    order-kitchen-notification: order-kitchen-notification.fifo
