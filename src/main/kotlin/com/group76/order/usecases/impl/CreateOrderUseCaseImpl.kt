@@ -62,11 +62,14 @@ class CreateOrderUseCaseImpl(
 
             val result = orderRepository.save(order)
 
+            //TODO criar pagamento
+
             snsService.publishMessage(
                 topicArn = snsService.getTopicArnByName(systemProperties.sns.order)!!,
                 message = OrderMessageSnsRequest(
                     orderId = result.id,
-                    status = result.status
+                    status = result.status,
+                    clientId = result.clientId
                 ),
                 subject = "Order Created",
                 id = result.id.toString()

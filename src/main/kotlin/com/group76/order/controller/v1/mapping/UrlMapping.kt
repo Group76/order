@@ -7,5 +7,6 @@ object UrlMapping {
 
     object Resource {
         const val ORDER = "/order"
+        const val PAYMENT = "/payment"
     }
 }

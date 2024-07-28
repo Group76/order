@@ -4,5 +4,7 @@ import com.group76.order.entities.OrderStatusEnum
 
 data class OrderMessageSnsRequest (
     val orderId: Long,
-    val status: OrderStatusEnum
+    val clientId: String,
+    val status: OrderStatusEnum,
+    val description: String? = null
 )

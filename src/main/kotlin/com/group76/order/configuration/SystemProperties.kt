@@ -11,7 +11,8 @@ class SystemProperties {
 
     class SnsConfiguration{
         var order: String = ""
-        var orderCancelled: String = ""
+        var orderClientNotification: String = ""
+        var orderKitchenNotification: String = ""
     }
 }
 

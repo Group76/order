@@ -4,6 +4,7 @@ import com.group76.order.configuration.SystemProperties
 import com.group76.order.entities.OrderStatusEnum
 import com.group76.order.entities.request.CancelOrderRequest
 import com.group76.order.entities.request.OrderCancelledMessageSnsRequest
+import com.group76.order.entities.request.OrderMessageSnsRequest
 import com.group76.order.entities.response.BaseResponse
 import com.group76.order.entities.response.CancelResponse
 import com.group76.order.gateways.IOrderRepository
@@ -38,13 +39,23 @@ class CancelOrderUseCaseImpl(
 
             resultFind.get().cancelled(request.reason)
             val result = orderRepository.save(resultFind.get())
+            val messageSns = OrderMessageSnsRequest(
+                orderId = result.id,
+                status = result.status,
+                description = result.cancelledReason,
+                clientId = result.clientId
+            )
 
             snsService.publishMessage(
-                topicArn = snsService.getTopicArnByName(systemProperties.sns.orderCancelled)!!,
-                message = OrderCancelledMessageSnsRequest(
-                    orderId = result.id,
-                    reason = result.cancelledReason!!
-                ),
+                topicArn = snsService.getTopicArnByName(systemProperties.sns.order)!!,
+                message = messageSns,
+                subject = "Order Cancelled",
+                id = result.id.toString()
+            )
+
+            snsService.publishMessage(
+                topicArn = snsService.getTopicArnByName(systemProperties.sns.orderClientNotification)!!,
+                message = messageSns,
                 subject = "Order Cancelled",
                 id = result.id.toString()
             )

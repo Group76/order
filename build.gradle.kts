@@ -57,6 +57,7 @@ dependencies {
 	runtimeOnly("com.mysql:mysql-connector-j:8.2.0")
 
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.1")
+	implementation("com.mercadopago:sdk-java:2.1.24")
 
 	testImplementation("io.mockk:mockk:1.13.11")
 	testImplementation("org.junit.jupiter:junit-jupiter-api")

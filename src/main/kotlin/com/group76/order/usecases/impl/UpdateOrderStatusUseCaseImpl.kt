@@ -57,16 +57,37 @@ class UpdateOrderStatusUseCaseImpl(
 
             resultFind.get().updateStatus(status)
             val result = orderRepository.save(resultFind.get())
+            val snsMessage = OrderMessageSnsRequest(
+                orderId = result.id,
+                status = result.status,
+                clientId = result.clientId
+            )
 
             snsService.publishMessage(
                 topicArn = snsService.getTopicArnByName(systemProperties.sns.order)!!,
-                message = OrderMessageSnsRequest(
-                    orderId = result.id,
-                    status = result.status
-                ),
+                message = snsMessage,
                 subject = "Order Updated",
                 id = result.id.toString()
             )
+
+            if (status == OrderStatusEnum.READY
+                || status == OrderStatusEnum.RECEIVED){
+                snsService.publishMessage(
+                    topicArn = snsService.getTopicArnByName(systemProperties.sns.orderClientNotification)!!,
+                    message = snsMessage,
+                    subject = "Order Updated",
+                    id = result.id.toString()
+                )
+            }
+
+            if (status == OrderStatusEnum.RECEIVED){
+                snsService.publishMessage(
+                    topicArn = snsService.getTopicArnByName(systemProperties.sns.orderKitchenNotification)!!,
+                    message = snsMessage,
+                    subject = "Order Updated",
+                    id = result.id.toString()
+                )
+            }
 
             return BaseResponse(
                 data = GetOrderResponse(
