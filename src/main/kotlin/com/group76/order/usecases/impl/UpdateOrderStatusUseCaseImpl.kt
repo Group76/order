@@ -41,7 +41,7 @@ class UpdateOrderStatusUseCaseImpl(
                     OrderStatusEnum.RECEIVED
                 )
                 OrderStatusEnum.CANCELLED -> arrayOf()
-                OrderStatusEnum.RECEIVED -> arrayOf(OrderStatusEnum.READY)
+                OrderStatusEnum.RECEIVED -> arrayOf(OrderStatusEnum.PREPARATION)
                 OrderStatusEnum.PREPARATION -> arrayOf(OrderStatusEnum.READY)
                 OrderStatusEnum.READY -> arrayOf(OrderStatusEnum.FINISHED)
                 OrderStatusEnum.FINISHED -> arrayOf()
