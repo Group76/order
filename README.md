@@ -1,4 +1,4 @@
-# orders
+# Order
 
 ## Swagger
 [Collection](https://github.com/Group76/order/blob/main/docs/api-docs.json)
