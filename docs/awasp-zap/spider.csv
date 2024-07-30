@@ -1,0 +1,10 @@
+Processado,Método,URI,Marcadores
+true,GET,http://localhost:8081,Semear
+true,GET,http://localhost:8081/robots.txt,Semear
+true,GET,http://localhost:8081/sitemap.xml,Semear
+true,GET,http://localhost:8081/v1,Semear
+true,GET,http://localhost:8081/v1/order,Semear
+true,GET,http://localhost:8081/v1/order/10,Semear
+true,GET,http://localhost:8081/v1/order/10/PENDING,Semear
+true,GET,http://localhost:8081/v1/payment,Semear
+true,GET,http://localhost:8081/v1/payment/notification,Semear

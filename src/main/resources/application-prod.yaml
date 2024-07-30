@@ -1,0 +1,51 @@
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8080
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: health,info,prometheus,liveness,readiness,circuitbreakers,circuitbreakerevents
+  endpoint:
+    health:
+      show-details: always
+  health:
+    probes:
+      enabled: true
+
+logging:
+  config: classpath:logback.xml
+
+spring:
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+      WRITE_DATES_WITH_ZONE_ID: true
+  datasource:
+    url: ${sqlUrl}
+    username: ${sqlUser}
+    password: ${sqlPassword}
+  config:
+    import:
+      - aws-parameterstore:/config/order-api_prod/
+  cloud:
+    openfeign:
+      client:
+        config:
+          mercadoPago:
+            url: https://api.mercadopago.com
+
+system:
+  id-service: order-api
+  sns:
+    order: order.fifo
+    order-client-notification: order-client-notification.fifo
+    order-kitchen-notification: order-kitchen-notification.fifo
+
+mercadoPago:
+  userId: ${mercadoPagoUserId}
+  testToken: ${mercadoPagoTestToken}
+  externalPosId: ${mercadoPagoExternalPosId}

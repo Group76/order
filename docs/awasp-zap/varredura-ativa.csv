@@ -1,0 +1,1001 @@
+ID,Requisição de Timestamp,Timestamp de Resposta,Método,URL,Código,Motivo,RTT,Tamanho do Cabeçalho da Resposta,Tamanho do Corpo da Resposta
+2992,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+2993,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,5,237,122
+2994,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+2995,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,4,237,106
+2996,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+2997,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+2998,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081,404,Not Found,2,237,102
+2999,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3000,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/latest/meta-data/,404,Not Found,8,237,135
+3001,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3002,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3003,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj+5716*7428+zj/PENDING,400,Bad Request,7,150,168
+3004,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/latest/meta-data/,404,Not Found,5,237,135
+3005,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3006,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3007,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3008,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,8,237,106
+3009,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3010,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3011,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3012,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B9081*1762%7Dzj/PENDING,400,Bad Request,5,150,172
+3013,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3014,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3015,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/latest/meta-data/,404,Not Found,6,237,135
+3016,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3017,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3018,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3019,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3020,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%24%7B3959*1726%7Dzj/PENDING,400,Bad Request,6,150,176
+3021,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3022,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/latest/meta-data/,404,Not Found,8,237,135
+3023,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj+9468*2329+zj,400,Bad Request,11,150,160
+3025,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3024,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3026,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%23%7B7673*8690%7Dzj/PENDING,400,Bad Request,6,150,176
+3027,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,9,150,114
+3028,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3029,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3030,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3031,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,9,99,0
+3032,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%232165*4723%7Dzj/PENDING,400,Bad Request,13,150,176
+3033,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B6720*9000%7Dzj,400,Bad Request,13,150,164
+3034,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,10,150,114
+3035,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3036,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,11,150,114
+3037,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3038,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,2,150,114
+3039,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%404382*2659%7Dzj/PENDING,400,Bad Request,5,150,176
+3040,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%24%7B7992*6370%7Dzj,400,Bad Request,5,150,168
+3041,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3042,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3043,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3044,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3045,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3046,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%7B4900*1354%7D%7Dzj/PENDING,400,Bad Request,6,150,180
+3047,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%23%7B6843*4836%7Dzj,400,Bad Request,6,150,168
+3048,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3049,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3050,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3051,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3052,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%231566*9351%7Dzj,400,Bad Request,5,150,168
+3053,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3054,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%7B%3D5249*4495%7D%7Dzj/PENDING,400,Bad Request,6,150,184
+3055,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3056,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3057,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3058,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3059,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3060,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%407933*1533%7Dzj,400,Bad Request,4,150,168
+3061,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%3C%25%3D3803*3703%25%3Ezj/PENDING,400,Bad Request,5,150,184
+3062,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3063,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3064,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3065,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%23set%28%24x%3D7491*3745%29%24%7Bx%7Dzj/PENDING,400,Bad Request,4,150,206
+3066,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3067,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%7B7914*9842%7D%7Dzj,400,Bad Request,6,150,172
+3068,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3069,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3070,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3071,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%3Cp+th%3Atext%3D%22%24%7B3469*9821%7D%22%3E%3C%2Fp%3Ezj/PENDING,400,Bad Request,3,150,232
+3072,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%7B%3D5108*2552%7D%7Dzj,400,Bad Request,4,150,176
+3073,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3074,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3075,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3076,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%3C%25%3D8038*8094%25%3Ezj,400,Bad Request,6,150,176
+3077,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3078,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%40math+key%3D%227437%22+method%3D%22multiply%22+operand%3D%227291%22%2F%7Dzj/PENDING,400,Bad Request,7,150,282
+3079,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3080,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3081,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3082,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%23set%28%24x%3D7464*8161%29%24%7Bx%7Dzj,400,Bad Request,4,150,198
+3083,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%7B53320%7Cadd%3A38540%7D%7Dzj/PENDING,400,Bad Request,5,150,196
+3084,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3085,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3086,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3087,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,19,141,28
+3088,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/zj%7B%7Bprint+%226311%22+%224167%22%7D%7Dzj/PENDING,400,Bad Request,4,150,212
+3089,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%3Cp+th%3Atext%3D%22%24%7B7889*7584%7D%22%3E%3C%2Fp%3Ezj,400,Bad Request,5,150,224
+3090,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3091,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3092,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3093,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3094,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3095,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj+7914*9072+zj,400,Bad Request,6,150,167
+3096,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%40math+key%3D%222495%22+method%3D%22multiply%22+operand%3D%226043%22%2F%7Dzj,400,Bad Request,6,150,274
+3097,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3098,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3099,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B1477*6384%7Dzj,400,Bad Request,6,150,171
+3100,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%7B70500%7Cadd%3A26140%7D%7Dzj,400,Bad Request,7,150,188
+3101,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3102,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3103,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3104,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,23,141,28
+3105,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3106,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%24%7B6540*6863%7Dzj,400,Bad Request,5,150,175
+3107,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,GET,http://localhost:8081/v1/order/zj%7B%7Bprint+%225333%22+%222901%22%7D%7Dzj,400,Bad Request,4,150,204
+3108,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3109,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3110,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3111,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%23%7B5493*2488%7Dzj,400,Bad Request,5,150,175
+3112,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3113,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3114,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%235237*7358%7Dzj,400,Bad Request,5,150,175
+3115,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3116,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3117,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3118,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%401954*2854%7Dzj,400,Bad Request,4,150,175
+3119,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3120,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3121,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,21,141,28
+3122,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3123,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%7B3275*6515%7D%7Dzj,400,Bad Request,5,150,179
+3124,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3125,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3126,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3127,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%7B%3D9721*6850%7D%7Dzj,400,Bad Request,5,150,183
+3128,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3129,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3130,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3131,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3132,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%3C%25%3D7297*1457%25%3Ezj,400,Bad Request,4,150,183
+3133,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3134,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3135,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3136,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%23set%28%24x%3D1910*6462%29%24%7Bx%7Dzj,400,Bad Request,5,150,205
+3137,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,20,141,28
+3138,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,2,150,114
+3139,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3140,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3141,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3142,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%3Cp+th%3Atext%3D%22%24%7B3492*9624%7D%22%3E%3C%2Fp%3Ezj,400,Bad Request,5,150,231
+3143,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3144,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3145,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%40math+key%3D%221148%22+method%3D%22multiply%22+operand%3D%227833%22%2F%7Dzj,400,Bad Request,5,150,281
+3146,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3147,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3148,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3149,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%7B23290%7Cadd%3A23630%7D%7Dzj,400,Bad Request,5,150,195
+3150,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3151,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3152,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,23,141,28
+3153,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3154,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,PATCH,http://localhost:8081/v1/order/10/zj%7B%7Bprint+%223518%22+%221349%22%7D%7Dzj,400,Bad Request,5,150,211
+3155,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3156,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3157,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3158,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3159,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3160,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3161,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3162,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3163,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3164,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3165,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,17,141,28
+3166,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3167,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3168,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3169,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3170,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3171,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3172,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3173,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3174,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3175,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3176,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3177,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,20,141,28
+3178,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3179,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3180,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3181,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3182,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3183,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3184,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3185,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3186,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3187,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3188,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3189,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,27,141,28
+3190,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3191,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3192,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3193,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3194,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3195,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3196,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3197,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3198,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3199,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3200,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3201,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3202,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3203,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,41,141,28
+3204,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3205,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3206,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3207,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3208,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3209,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,7,99,0
+3210,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3211,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3212,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3213,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3214,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,27,141,28
+3215,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3216,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3217,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3218,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,6,150,129
+3219,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3220,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3221,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3222,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,17,141,28
+3223,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3224,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3225,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3226,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3227,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3228,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3229,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:13 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3230,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3231,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3232,Mon Jul 29 21:58:13 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,25,141,28
+3233,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3234,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3235,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3236,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3237,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3238,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3239,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3240,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,19,141,28
+3241,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3242,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3243,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,15,141,28
+3244,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3245,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3246,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3247,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,2,150,114
+3248,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3249,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%3C%23assign+ex%3D%22freemarker.template.utility.Execute%22%3Fnew%28%29%3E+%24%7B+ex%28%22sleep+15%22%29+%7D/PENDING,400,Bad Request,6,150,326
+3250,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3251,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3252,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3253,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3254,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,9,237,106
+3255,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3256,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%23set%28%24engine%3D%22%22%29%0A%23set%28%24proc%3D%24engine.getClass%28%29.forName%28%22java.lang.Runtime%22%29.getRuntime%28%29.exec%28%22sleep+15%22%29%29%0A%23set%28%24null%3D%24proc.waitFor%28%29%29%0A%24%7Bnull%7D/PENDING,400,Bad Request,8,150,509
+3257,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3258,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3259,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3260,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3261,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3262,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%7B%7B%3D+global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29+%7D%7D/PENDING,400,Bad Request,6,150,346
+3263,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3264,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3265,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3266,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3267,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%3C%23assign+ex%3D%22freemarker.template.utility.Execute%22%3Fnew%28%29%3E+%24%7B+ex%28%22sleep+15%22%29+%7D,400,Bad Request,7,194,318
+3268,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,10,150,114
+3269,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3270,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%3C%25%3D+global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%25%3E/PENDING,400,Bad Request,10,150,344
+3271,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3272,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,11,150,114
+3273,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3274,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3275,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%23set%28%24engine%3D%22%22%29%0A%23set%28%24proc%3D%24engine.getClass%28%29.forName%28%22java.lang.Runtime%22%29.getRuntime%28%29.exec%28%22sleep+15%22%29%29%0A%23set%28%24null%3D%24proc.waitFor%28%29%29%0A%24%7Bnull%7D,400,Bad Request,5,194,501
+3276,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%23%7Bglobal.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%7D/PENDING,400,Bad Request,6,150,334
+3277,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3278,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3279,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3280,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%7B%7B%3D+global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29+%7D%7D,400,Bad Request,6,194,338
+3281,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3282,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3283,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%7B%7Brange.constructor%28%22return+eval%28%5C%22global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%5C%22%29%22%29%28%29%7D%7D/PENDING,400,Bad Request,6,150,448
+3284,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,7,150,114
+3285,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3286,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3287,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3288,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%3C%25%3D+global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%25%3E,400,Bad Request,11,194,336
+3289,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3290,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3291,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%7B%7B%22%22.__class__.__mro__%5B1%5D.__subclasses__%28%29%5B157%5D.__repr__.__globals__.get%28%22__builtins__%22%29.get%28%22__import__%22%29%28%22subprocess%22%29.check_output%28%22sleep+15%22%29%7D%7D/PENDING,400,Bad Request,9,150,498
+3292,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3293,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3294,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3295,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%23%7Bglobal.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%7D,400,Bad Request,6,194,326
+3296,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3297,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3298,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%24%7B__import__%28%22subprocess%22%29.check_output%28%22sleep+15%22%2C+shell%3DTrue%29%7D/PENDING,400,Bad Request,8,150,296
+3299,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3300,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3301,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3302,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3303,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%7B%7Brange.constructor%28%22return+eval%28%5C%22global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%5C%22%29%22%29%28%29%7D%7D,400,Bad Request,9,194,440
+3304,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3305,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%7B%7B__import__%28%22subprocess%22%29.check_output%28%22sleep+15%22%2C+shell%3DTrue%29%7D%7D/PENDING,400,Bad Request,5,150,300
+3306,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3307,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3308,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%7B%7B%22%22.__class__.__mro__%5B1%5D.__subclasses__%28%29%5B157%5D.__repr__.__globals__.get%28%22__builtins__%22%29.get%28%22__import__%22%29%28%22subprocess%22%29.check_output%28%22sleep+15%22%29%7D%7D,400,Bad Request,7,194,490
+3309,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3310,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%3C%25%3D%25x%28sleep+15%29%25%3E/PENDING,400,Bad Request,7,150,188
+3311,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,9,150,114
+3312,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3313,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3314,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3315,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3316,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%24%7B__import__%28%22subprocess%22%29.check_output%28%22sleep+15%22%2C+shell%3DTrue%29%7D,400,Bad Request,8,194,288
+3317,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3318,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%23%7B%25x%28sleep+15%29%7D/PENDING,400,Bad Request,10,150,180
+3319,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3320,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3321,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%7B%7B__import__%28%22subprocess%22%29.check_output%28%22sleep+15%22%2C+shell%3DTrue%29%7D%7D,400,Bad Request,8,194,292
+3322,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/%7Bsystem%28%22sleep+15%22%29%7D/PENDING,400,Bad Request,6,150,192
+3323,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,6,99,0
+3324,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3325,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%3C%25%3D%25x%28sleep+15%29%25%3E,400,Bad Request,6,150,180
+3326,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,11,150,114
+3327,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%3C%23assign+ex%3D%22freemarker.template.utility.Execute%22%3Fnew%28%29%3E+%24%7B+ex%28%22sleep+15%22%29+%7D,400,Bad Request,6,194,325
+3328,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3329,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3330,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3331,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%23%7B%25x%28sleep+15%29%7D,400,Bad Request,6,150,172
+3332,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3333,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3334,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%23set%28%24engine%3D%22%22%29%0A%23set%28%24proc%3D%24engine.getClass%28%29.forName%28%22java.lang.Runtime%22%29.getRuntime%28%29.exec%28%22sleep+15%22%29%29%0A%23set%28%24null%3D%24proc.waitFor%28%29%29%0A%24%7Bnull%7D,400,Bad Request,12,194,508
+3335,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/%7Bsystem%28%22sleep+15%22%29%7D,400,Bad Request,6,150,184
+3336,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3337,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3338,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3339,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%7B%7B%3D+global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29+%7D%7D,400,Bad Request,5,194,345
+3340,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3341,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3342,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3343,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%3C%25%3D+global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%25%3E,400,Bad Request,6,194,343
+3344,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3345,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3346,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3347,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%23%7Bglobal.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%7D,400,Bad Request,5,194,333
+3348,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,54,141,28
+3349,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3350,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3351,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3352,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%7B%7Brange.constructor%28%22return+eval%28%5C%22global.process.mainModule.require%28%27child_process%27%29.execSync%28%27sleep+15%27%29.toString%28%29%5C%22%29%22%29%28%29%7D%7D,400,Bad Request,7,194,447
+3353,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3354,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3355,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3356,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3357,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%7B%7B%22%22.__class__.__mro__%5B1%5D.__subclasses__%28%29%5B157%5D.__repr__.__globals__.get%28%22__builtins__%22%29.get%28%22__import__%22%29%28%22subprocess%22%29.check_output%28%22sleep+15%22%29%7D%7D,400,Bad Request,7,194,497
+3358,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3359,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3360,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3361,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3362,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%24%7B__import__%28%22subprocess%22%29.check_output%28%22sleep+15%22%2C+shell%3DTrue%29%7D,400,Bad Request,7,194,295
+3363,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3364,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3365,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3366,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%7B%7B__import__%28%22subprocess%22%29.check_output%28%22sleep+15%22%2C+shell%3DTrue%29%7D%7D,400,Bad Request,7,194,299
+3367,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,31,141,28
+3368,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3369,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3370,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3371,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%3C%25%3D%25x%28sleep+15%29%25%3E,400,Bad Request,7,150,187
+3372,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3373,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3374,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3375,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3376,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%23%7B%25x%28sleep+15%29%7D,400,Bad Request,6,150,179
+3377,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3378,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3379,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%7Bsystem%28%22sleep+15%22%29%7D,400,Bad Request,6,150,191
+3380,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3381,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3382,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3383,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3384,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3385,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,31,141,28
+3386,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3387,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3388,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3389,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3390,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3391,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3392,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3393,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3394,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3395,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3396,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3397,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3398,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,20,141,28
+3399,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3400,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3401,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3402,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3403,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3404,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3405,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3406,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3407,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3408,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3409,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3410,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,23,141,28
+3411,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,6,99,0
+3412,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,9,150,114
+3413,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3414,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3415,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3416,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3417,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3418,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3419,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3420,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3421,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3422,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,29,141,28
+3423,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,6,150,129
+3424,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3425,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3426,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3427,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,5,150,129
+3428,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3429,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,6,150,129
+3430,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3431,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,25,141,28
+3432,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,5,150,129
+3433,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3434,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3435,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3436,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,6,150,129
+3437,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3438,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3439,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,5,150,129
+3440,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3441,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3442,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,25,141,28
+3443,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3444,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3445,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3446,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3447,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3448,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,29,141,28
+3449,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,20,141,28
+3450,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,23,141,28
+3451,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,23,141,28
+3452,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3453,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order/,404,Not Found,9,237,119
+3454,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order/,404,Not Found,9,237,119
+3455,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/,404,Not Found,6,237,102
+3456,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification/,404,Not Found,11,237,149
+3457,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING/,404,Not Found,12,237,141
+3458,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,10,237,106
+3459,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3460,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/,404,Not Found,10,237,107
+3461,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/,404,Not Found,7,237,119
+3462,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3463,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/10/,404,Not Found,10,237,125
+3464,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment/,404,Not Found,9,237,123
+3465,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,5,237,102
+3466,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3467,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3468,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3469,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/bSSILvPHIWmNkgoUTeIigwyTvhOqquHTgkOacWYrQjqwnGobpmCavddQvXoPHpVTgWdhNbZbwteyuqNbLmBLHYnyrlrvmIbCaHXteBPUAoDnxZHdVambLUvLVZsgkBOhSedCTafnJUPHTtnHIaWPKXkwOXRlaIaSCXeYnFwxLTKbuZcxtJHJXhCkEOxsQHjsUNYpAUvweJYFupUTyUKDOyOEvXWSWocWgowYkqMLgPYbSqpkAwSdOcIKJAOGBFYQApAIxjtkRBphxhcQITwROVibjDlcdjaXBimVqZBAPxZlBTUAgAoAtCGtOdfXEVOViVsdwStGFuWWNIukhuwdcdTpYWgKQMoniuAqVWWKvLbfcHPQIJaVMvkPbDJYjZcpaXyJmgAeXfNkeIDYVsQjDJrjTVPqURhJTHdlHRWiRsGSXPqCOxMgMTptmmxFcLPISgAjBPPkKXrkfMaDkpURgNJpCbTRctbxFDNPnIiWYQDVBJArLpKwCXwKLoMhKeCBsZJfNqbXxOiDdxWKwdQFqRAjIfCeftHdNqxXXxoKCQESgpQcdNwcTyXbuQbWmMqJCieqUEEebPaBtTYOVJPatGSDMIeLllTemFogROPDNnindspERfcFqHTFjVJNVKJZotQCOkHQGRRtplpgaqAELtfbjjPanJLvTiZqMFFGUseUkxpZpBAYUQULooCGSeycvTXArEsdfsrENoCREdTplEUdhrnomuruVgURvIhPvITiyDIckfbVOlFIqRFZpkWAfVaYZyKKAEyaAUAgEagbkWGIjPDGdLlUmsruDvjVMFnGNnKRbTqYfnfGZVNftTJRLCcDtpZKubexNlFOYYdyJsiVoGhluRoJJVRrBUgKQlYBCrjqOWoeQUoxLaJKIWmevKpflDOEEZLjIWXlkwaNVLtPMlBuqqTApcFQmlBCHvMOVUwQEXTGEyOKWmHmuZQtKmrbFGdTFFZXphKVEAxQofNsilHgPrRWusbDkHRnQsLmRsdmTvTDbpQEiBCxMxfKFJWLqsXlceaGPpknZuvYxyTaKbGdqKEwRprylcVEOPVyWFLkcScnWejrMqbFgKyLynLukYvRQQfaBqnbZEiiSLgujfKkUbbPyWagaxxjqdJpAaKULdnuoUCqtNmnJfhkjXHQYKLTIwCEqShoyHRAIpCyeDcNVfxkmAxmpaGGWgEnqLkHlImYBesYxnrGJEgdHZBnJDGpGNCnmFQDrvtrNNigIkKOtbCtFtKXHlspWWatOgxGTiZIVBWgqenPZtDUvnVelDAeEIXSttkCwLtFlCrAhhPayVDOieyxeXJXMpvKsjQFtVbWXDVEsIDhtVuLMXIjWxWbqTblDdsgvPLWyJtCFfSDuDRZAdCyYAtNMVGoBKlAdiarIAURoGGCFHEqaMnxFAoiuvmBfnQNZTmllrLgAsckBhHfywBbmWeDMEJCSxGaWbxXXqDRhWBqwPXGOBKthnPsdPoCpZiOojbPssOwtgjxYtcUOtQHGNTCEcSUiBOUPjQhsdpeClSwTlILBEKAJcnHhmqbYtHpPtadlRSqoZcSNVaCSkosLrcBbmRRIPkaRlqbVSRsNFhcKIsQmQKWVSbZSMWEirmiekwLvgdPJlXdApOrrVRgPENKJLZWIDNusMoVAfDrZKJIsSqemqxYnANUYPBHdpxSbxMAYXLFQUTfWxhFyMjpIAtsthirXIHvtsNfSihAggQVRWqUbcAodVnCNIRPThQbcpXPKvMuvEjxUCmSRGfSigHxMCiCPPuqiJAawWDRqKakirZKnpvtVlqpslApRoRLJWsdcMjIduLJtZFshMVJNpBKCjJoiQJpNrHhESYfFNYvoINGPwhaURJOBbVmULNSLILasVmgjKvryZlRPOdPauKsqoWUhxllXdtZbTsBbmVxGupkkxqjeFsOJFffUympTJDcIjKdRLeUZFHqHXpvypeIAUoBHunDbxYkRSPUSauIyraaiUWEaNwMLIlGIkYwUpWbZRRnIPWbjhsSLhnNbljXAYtyQstsqAghBDDcCQKRjgVexHnHZdRJqjquJxClmKEpnOdQWkftitdLtfQubxUhTqxQYuYFoeTv/PENDING,400,Bad Request,11,151,4338
+3470,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3471,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3472,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3473,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,15,237,106
+3474,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/lSaEEqxIBictetyFZNuKafbdNpRdijKiEoaZupKOGACxlWxqhPjxgECFObOuYTpHKUdQuQrmKQRZyPsGndUQpWOcLevPWjSwfEVkkQtvGHokWZRAVXUMPYlMChILtyhLHnMbkdvIdMsDJBaBVrMFhGiBQbBdyuPCfrXgATiWBwhgcGFdYyhXonqUtHahBTuKyoqjdKWZmerjASdTfncDGhVhAZKVCTuSxITNadKAnwLqnTLRCBAsaPjKeHyxvAsNfNMvtoGxbRFctACdNQfIFuwaByxYylAoEYykNBQaTVsSVHYpagZkRyNeGJpxxVKjTZomMpydYxNSjJktEmlcGyXoKGgZKEkBFEuMoujYJIfHywqLutDlUlICCEQYUUcWMqwIlvhyKPruOnpcbUnqUchdUfvpptPsiGWQURrWYavHDIgybPFdKwtdaxIsmPGsFHfFBIsqqWLvOnRDsFNfubnWOJctPKTPvJqfQurYQWRixKlfRblJjLuBHynOcFYYlhTeopIYGGsOxVGkUTtGStfObYZUPOBObNRlFpQnvnACGDUuqXRCKMIpsqNcVbZRbyUhyUGTNUmxcSfOIytrDThkgLBNfwBwnsgxbMjQioKhlUolHkEnxXdEjhBBquBGwjQDJyYkvduUqopagPVNyLPwbvWBsrFrrqJTsLUCjiBHYIraYPOaZfHNlZVorTfthuPTVnpCvBHfaixnCgJaxlIIgtQwgKoWbVUkoZVUZmlcpcFrHxwoFpLVBtgxRqMlvhwYesAPqpxlfhqOwMnVrpgRXQwdrPnIaBLCgVAMlgBEudCvMxJMPsrNosfMPbqIWmmGaqerHQYAyilPMjmFKBTmRgElqrlLOjJFPxJqFpDkiKLihgfRyYkgtTCccxrWVTwJdaeFVbNHNmdcBuONOFnMKJwviApYkZucpkOXbNRYSFmBxyfwgHYVRQhCOyoROGZXSRwnxjxSmrVtVSvBKPViKEJtkDgDjMtOEKPwZpQfiPtcpyErQigKLXxUSawLIiPXVFUuCkBerfAKFSUyIwnUXaPpiCBxGaQshRFZbKuGJYtKRUffHyVcFcrlTaoxyYGBOLipLdsIsqaWLbggqEDCgqZYmAUtyyVoWcfCRqGKlSHnfNDOIdqUZyLNvQJfWLEdVrWcXlrKWtwVgIMGmRaJgTGFbIlkBrcOJFoELioDuqWDpCabIOHyRSFtCYCHkcUvMqOxXCNXjdKpmhAVVIBGHCCVjTukOdEijVamEBroXwTJjFyCjiLvZgbDKASPkYdJoWlPoxNJVWVMrCOVjriDZfHDWtZRxadSYPnQMYKouwnPiKAnMudZOgxANLMgHQLNaCnJnPtqAspevmaFEPoFTXbntGpBDCnMOUTKccIFbqhlHFnMLsGbhdLJPePiEypQiukvpTRccFsQdltYeKZWgaDWpWriEOfSKaUorObFPGHmGBbRyELLaKhRtSLGNEKpjtQZIrTfMuYaXFQMLUooJkecPMdnSDfyHGAjOcIoRKreWFacuKYvICYwWrsvsIidUDqYsFwPeMOBYHrkNkfamTJtkAxUyFLlDLlGXNQHhcWAvQfilgDcDxsqxOBfpZTIlMelGkQZiHAcyvJwFohsXwTvuDOYqPraXvkNgOooQDZUelNMNfmSXtqiPtfvUHwMkJxAWFZTISrXrdNgegsFJpCFMWQrJeOKNRpqUXJcrDPSBhQWjoAdHmMFrWlaPTKLytDteuFXxFVpHgtIPyjsDBlQPoLWasVcsDlYDKhmMrLrKjaZadhjsoxcVpfxXIZKnugITjReFmoexflndihRywDHPIdpQcoeAxCMmVJMeqbKsNqhpcdQthvEGsEBXdLZuSPvckHxmNUfWicrxrxZaCqwGDoSNluYPoMBBWyGvBtenGPJgnQVuFCTymvWUVdWsIMVButiEIpFsOBVyvCXZudinBuhtFynHpJktfGCxDqerLOlibqCdESmnHQQaUguuZpRJvjIQSEuAuZQycUIKGgBnWgknKXYqtdSnXZUiqMZQDfryWGWccYDifbmGBmUcLnnVdsUrOuTXkHfetGRsIOaBcNMilBREXAKMwpyxSOttEvy,400,Bad Request,8,151,4337
+3475,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3476,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3477,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,7,150,114
+3478,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3479,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3480,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,12,150,114
+3481,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,11,237,122
+3482,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/yhusmaKCupieQeBOdrNNhsDOUJvITphfvQFDCVZGRWkdxJIifYiQBFrFnZkUlJrYuxpuxApEHJRqLfTTukScLNWggUNuKJovCMBJrkWhUcJhqcNBsgIapeFPnEvRJdmFMIDtJSpJcWPTfaibBOLZAmjISlEUmedNesbViWaPVyyuIgeJxuYYKidHvniasGRZQJbNtxroovMqLAqXRqIFOyuGgmADISNcuCnWQqtdePoeMfwcRmXNvNpSRQCiWlVrioqINWUItPDyGORZJZvgqDuMjDkLFKFoYphbKUGTtQoyyqNEUdBBjjavdEDPFwHaDdPWTlYGflxaokLaSWIHOJYkXKnpmpvTSQAUNUOMNpXMcwJQCLIMbfDqQNZmAjNsCZKkmCJjxUfktSsiMtieVMACgnhcschIlnqRjosdRjhRoubxYAEBINWphUZugRHadrkZGkscFExHkaIhbxNSNmCkArEwZexPLyCIVjHMfqMFqiRUjhJZixBrdUDTgDOYgDjHIFBGpTTADoNZtgYutbVRVmhIekNLlxWIhQbJETVytKpUuYJSUpWCCltKIfrxBIHhSLuRAmglIfbFHIxSLKCYKqxSHasdWFswCLurKbLoPpJraBsaxoZSCtMvXTrlkRdsLidOWFZsjlGaLLGONJYWJDdKJvPlmqNfCwwaMIpVnkgDYdJlRFIAVjjoIkbhComTPyvZRHBQdNctWpcspNUKSrWvKngpdSVfrcAMtVvawbtarWQhVmlIavrmjsnPiFIgXQUOIHZqwhdRXWsjKOiEuobeLfNFLEoIExnXEZjNlAlyNqsHFYudHbtZsURViljawKJfbullJoAiTqZSBOxYbfGfGPKMjpWrlHZuSvOTiqFtbgsfsUYBetBHBGObvscLfkaTKxGmAQkNbwGUchqyXOwjGUCmnQfeLkGnQlAmFuOqFheBUfRUIOWYnAyUpiBcGgTuJGDtqllVyrVOjCjaGDHDYlqkCuwOADnYaAixwyWHUxcwPYdhApKNICEySMtfAAuFVJlcLEUOxhkUMDsusaIQjROXJmKbnHwEFrBTaghtQMqUmTLcLUtDclmWMervxFTEdrcJnNHunGgDwLfRyyBfEiRdwsUgsZdtDqoVlYyOxckuxkASJVMoUALiSjWYFRhsEndWqWLvgnptBYLKGovrFMjLcZDAOXMhtGmZcAsckNipEdrSakYZjjDMeEgPqcIkVVdhcqhKRXaZRmUGorRHfpaqBJmeZIPDQGRxfyMmFOEAQkNYZiOqqqssqZUnhEdJnSpAKlWPBKGPFUYOrrMdPMudQoyiKevQyaLxtlZFhRAFhaGHKQgcLPcGhcCFcDQPrAadVeOGnvrsSMksHxmbbsZWhigYJdkLrucMIJTkTAmEGkSQVgBmyAdpruoSRsPMfSjvcmYtljbGZhycTRTeVfshQUjUEErOqbBuSLgnAmMOhLhUERlsWowcFHVfxNVNiprLgIcOgAhmhDmDnAVfEeAthtiOJAZuSppDFegIoyYDpsENiuYWwlALcuiafKBIuhYsTBpfUcZTqiJowYxCTotBgkLgycnYQucdrAvljQRbqXUnNUFFBIFtwDVpiEyVvSulSbdFPHVMqIWoxjpIbdNKVkUGvHiDONBrYFfrTsFKVOGCKNOupaMVMMmKfArnsPUtWIMkCDwDOkWAFEZabWWPmAIGFBIRdYWhqRTLaEprysOKxnCELATfFEfZnmsfOGbYXrEHpFOuKPlIxPLSjBfpkiUXuFNKrOUYlvfPcJkbXcRWqXpXFQMIakScjSLlKPBNOfhaPiSJoCRFctgbJPdOshfEylxIBrIZxuPLMOlnDDpYVnlIBFcvxYBgfiZBkdNDuDQwrBqORyjbLLccIJKMoZmNhvRDpycaADnXcEJLnHVeSfCnOiRPlnDvkLLmIvEsLsCKgmYbiRtcxqxYVewxFfgrSIjXgJKroIeklYnlyeoHbnfkjNcaZQbikaPsrpiPVaoCpVrLtBDlmkUNVBJbJGvSkFDdnfxYySKdXSLZvyclhJAJkJllaUpSyjxqURpLJuVnLQGdmHdXRqIhrrZqWkfMUMTsZRxLAmOgKYix,400,Bad Request,9,151,4330
+3483,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,5,150,129
+3484,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3485,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,47,141,28
+3486,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3487,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3488,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3489,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3490,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3491,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/ZAP/PENDING,400,Bad Request,7,150,144
+3492,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,7,150,114
+3493,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3494,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3495,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3496,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,10,237,106
+3497,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3498,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/ZAP%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%0A/PENDING,400,Bad Request,6,150,389
+3499,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3500,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3501,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3502,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3503,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3504,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/ZAP+%251%21s%252%21s%253%21s%254%21s%255%21s%256%21s%257%21s%258%21s%259%21s%2510%21s%2511%21s%2512%21s%2513%21s%2514%21s%2515%21s%2516%21s%2517%21s%2518%21s%2519%21s%2520%21s%2521%21n%2522%21n%2523%21n%2524%21n%2525%21n%2526%21n%2527%21n%2528%21n%2529%21n%2530%21n%2531%21n%2532%21n%2533%21n%2534%21n%2535%21n%2536%21n%2537%21n%2538%21n%2539%21n%2540%21n%0A/PENDING,400,Bad Request,13,150,693
+3505,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3506,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3507,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,12,237,122
+3508,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/ZAP,400,Bad Request,10,150,136
+3509,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3510,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3511,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/ZAP,400,Bad Request,9,150,143
+3512,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3513,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/ZAP%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%0A,400,Bad Request,6,150,381
+3514,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3515,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3516,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3517,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3518,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/ZAP%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%25n%25s%0A,400,Bad Request,7,150,388
+3519,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/ZAP+%251%21s%252%21s%253%21s%254%21s%255%21s%256%21s%257%21s%258%21s%259%21s%2510%21s%2511%21s%2512%21s%2513%21s%2514%21s%2515%21s%2516%21s%2517%21s%2518%21s%2519%21s%2520%21s%2521%21n%2522%21n%2523%21n%2524%21n%2525%21n%2526%21n%2527%21n%2528%21n%2529%21n%2530%21n%2531%21n%2532%21n%2533%21n%2534%21n%2535%21n%2536%21n%2537%21n%2538%21n%2539%21n%2540%21n%0A,400,Bad Request,6,150,685
+3520,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,34,141,28
+3521,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3522,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3523,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/ZAP+%251%21s%252%21s%253%21s%254%21s%255%21s%256%21s%257%21s%258%21s%259%21s%2510%21s%2511%21s%2512%21s%2513%21s%2514%21s%2515%21s%2516%21s%2517%21s%2518%21s%2519%21s%2520%21s%2521%21n%2522%21n%2523%21n%2524%21n%2525%21n%2526%21n%2527%21n%2528%21n%2529%21n%2530%21n%2531%21n%2532%21n%2533%21n%2534%21n%2535%21n%2536%21n%2537%21n%2538%21n%2539%21n%2540%21n%0A,400,Bad Request,6,150,692
+3524,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3525,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3526,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3527,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3528,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3529,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3530,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3531,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,19,141,28
+3532,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3533,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3534,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,5,150,129
+3535,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3536,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3537,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3538,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3539,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3540,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,21,141,28
+3541,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3542,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3543,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3544,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3545,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3546,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/Set-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991/PENDING,400,Bad Request,6,150,252
+3547,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3548,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3549,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3550,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3551,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,12,237,106
+3552,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3553,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/any%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991/PENDING,400,Bad Request,8,150,268
+3554,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3555,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3556,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3557,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3558,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3559,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/any%3F%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991/PENDING,400,Bad Request,8,150,272
+3560,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3561,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3562,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+3563,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3564,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3565,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3566,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/any%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991/PENDING,400,Bad Request,8,150,263
+3567,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/Set-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b,400,Bad Request,10,150,244
+3568,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3569,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3570,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3571,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,5,99,0
+3572,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/any%3F%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991/PENDING,400,Bad Request,9,150,267
+3573,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3574,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3575,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/any%0D%0ASet-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b,400,Bad Request,9,150,260
+3576,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3577,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,11,150,114
+3578,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/any%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991%0D%0A/PENDING,400,Bad Request,6,150,278
+3579,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3580,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3581,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,13,99,0
+3582,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/any%3F%0D%0ASet-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b,400,Bad Request,19,150,264
+3583,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,17,150,114
+3584,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/any%3F%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991%0D%0A/PENDING,400,Bad Request,16,150,282
+3585,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,16,150,114
+3586,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3587,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3588,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3589,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/any%0ASet-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b,400,Bad Request,6,150,255
+3590,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/Set-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991,400,Bad Request,6,150,251
+3591,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3592,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3593,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3594,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/any%3F%0ASet-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b,400,Bad Request,6,150,259
+3595,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/any%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991,400,Bad Request,6,150,267
+3596,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3597,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3598,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3599,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/any%0D%0ASet-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b%0D%0A,400,Bad Request,6,150,270
+3600,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/any%3F%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991,400,Bad Request,5,150,271
+3601,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3602,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,22,141,28
+3603,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3604,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3605,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3606,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/any%3F%0D%0ASet-cookie%3A+Tamper%3D1eaa586c-75a4-4ef5-b139-de263db47a0b%0D%0A,400,Bad Request,6,150,274
+3607,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/any%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991,400,Bad Request,6,150,262
+3608,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3609,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3610,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3611,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/any%3F%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991,400,Bad Request,5,150,266
+3612,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3613,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3614,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3615,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3616,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/any%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991%0D%0A,400,Bad Request,5,150,277
+3617,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3618,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3619,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,17,141,28
+3620,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3621,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3622,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/any%3F%0D%0ASet-cookie%3A+Tamper%3D38a17895-9613-4672-9c3c-2486522df991%0D%0A,400,Bad Request,4,150,281
+3623,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3624,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3625,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3626,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3627,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3628,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3629,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3630,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3631,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3632,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,2,150,114
+3633,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,17,141,28
+3634,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3635,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3636,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3637,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3638,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3639,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3640,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3641,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3642,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3643,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3644,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3645,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,2,150,129
+3646,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,14,141,28
+3647,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3648,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3649,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3650,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3651,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3652,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3653,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3654,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,15,141,28
+3655,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,2,150,114
+3656,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,2,150,129
+3657,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3658,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3659,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3660,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3661,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3662,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,15,141,28
+3663,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,12,141,28
+3664,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,4,237,102
+3665,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3666,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3667,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3668,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3669,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,7,237,106
+3670,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3671,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,2,178,129
+3672,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3673,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3674,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,19,141,28
+3675,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,19,141,28
+3676,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3677,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3678,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3679,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3680,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3681,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3682,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3683,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3684,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3685,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3686,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,20,141,28
+3687,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,20,141,28
+3688,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3689,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,24,141,28
+3690,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3691,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3692,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3693,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3694,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3695,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3696,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3697,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3698,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3699,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3700,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3701,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3702,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3703,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3704,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3705,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3706,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3707,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3708,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3709,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3710,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3711,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3712,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3713,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3714,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3715,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3716,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3717,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3718,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3719,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3720,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3721,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3722,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3723,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3724,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,4,150,129
+3725,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3726,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,POST,http://localhost:8081/v1/payment/notification,400,Bad Request,3,150,129
+3727,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:14 BRT 2024,GET,http://localhost:8081,404,Not Found,4,237,102
+3728,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10/trace.axd,405,Method Not Allowed,7,215,142
+3729,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,10,237,106
+3730,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/trace.axd,404,Not Found,16,281,126
+3731,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3732,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/elmah.axd,404,Not Found,17,281,120
+3733,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/trace.axd,404,Not Found,16,281,126
+3734,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment/trace.axd,404,Not Found,16,281,142
+3735,Mon Jul 29 21:58:14 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/trace.axd,404,Not Found,15,281,120
+3736,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/trace.axd,400,Bad Request,4,194,148
+3737,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,4,237,122
+3738,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3739,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10/.htaccess,405,Method Not Allowed,5,215,142
+3740,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/.htaccess,404,Not Found,9,281,126
+3741,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment/.htaccess,404,Not Found,9,281,142
+3742,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,5,237,106
+3743,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.htaccess,404,Not Found,12,281,120
+3744,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3745,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/.htaccess,400,Bad Request,5,194,148
+3746,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+3747,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3748,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10/.env,405,Method Not Allowed,6,215,137
+3749,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment/.env,404,Not Found,8,281,132
+3750,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/.env,404,Not Found,9,281,116
+3751,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,5,237,106
+3752,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.env,404,Not Found,7,281,110
+3753,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3754,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/.env,400,Bad Request,5,194,138
+3755,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3756,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,2,237,102
+3757,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3758,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/lfm.php,404,Not Found,8,281,116
+3759,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3760,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/actuator/health,404,Not Found,8,237,138
+3761,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,5,237,106
+3762,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%3C/PENDING,400,Bad Request,8,150,142
+3763,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3764,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,7,150,114
+3765,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,9,150,114
+3766,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3767,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3768,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.idea/WebServers.xml,404,Not Found,9,237,142
+3769,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/actuator/health,404,Not Found,8,237,138
+3770,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E/PENDING,400,Bad Request,7,150,272
+3771,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3772,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,9,150,114
+3773,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3774,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3775,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+3776,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,1,99,0
+3777,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3778,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/system-property%28%27xsl%3Avendor%27%29%2F%3E/PENDING,400,Bad Request,6,150,214
+3779,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%3C,400,Bad Request,7,150,134
+3780,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3781,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/config/databases.yml,404,Not Found,9,237,142
+3782,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3783,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3784,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3785,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3786,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--/PENDING,400,Bad Request,5,150,297
+3787,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,400,Bad Request,6,150,264
+3788,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3789,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3790,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/config/database.yml,404,Not Found,9,237,140
+3791,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3792,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--/PENDING,400,Bad Request,5,150,284
+3793,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/system-property%28%27xsl%3Avendor%27%29%2F%3E,400,Bad Request,5,150,206
+3794,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3795,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3796,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3797,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3798,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E/PENDING,400,Bad Request,4,150,282
+3799,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,400,Bad Request,4,150,289
+3800,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.git/config,404,Not Found,10,237,124
+3801,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3802,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3803,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,400,Bad Request,5,150,276
+3804,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E/PENDING,400,Bad Request,5,150,755
+3805,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3806,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3807,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.svn/entries,404,Not Found,7,237,126
+3808,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E/PENDING,400,Bad Request,5,150,324
+3809,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3810,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,400,Bad Request,6,150,274
+3811,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,3,150,114
+3812,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,400,Bad Request,5,150,747
+3813,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%3C,400,Bad Request,6,150,141
+3814,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.svn/wc.db,404,Not Found,11,281,122
+3815,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3816,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,400,Bad Request,8,150,271
+3817,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,400,Bad Request,8,150,316
+3818,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3819,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,23,141,28
+3820,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/CVS/root,404,Not Found,9,237,118
+3821,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/system-property%28%27xsl%3Avendor%27%29%2F%3E,400,Bad Request,4,150,213
+3822,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,400,Bad Request,5,150,296
+3823,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/server-status,404,Not Found,7,237,128
+3824,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/core,404,Not Found,6,237,110
+3825,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,16,141,28
+3826,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/sftp-config.json,404,Not Found,7,237,134
+3827,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/WS_FTP.ini,404,Not Found,8,281,122
+3828,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,13,141,28
+3829,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/ws_ftp.ini,404,Not Found,7,281,122
+3830,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/WS_FTP.INI,404,Not Found,6,281,122
+3831,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,14,141,28
+3832,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/filezilla.xml,404,Not Found,7,237,128
+3833,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/sitemanager.xml,404,Not Found,6,237,132
+3834,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/FileZilla.xml,404,Not Found,5,237,128
+3835,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/winscp.ini,404,Not Found,7,281,122
+3836,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/WinSCP.ini,404,Not Found,8,281,122
+3837,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.DS_Store,404,Not Found,7,281,120
+3838,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.php_cs.cache,404,Not Found,7,281,128
+3839,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/DEADJOE,404,Not Found,7,237,116
+3840,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/sites/default/private/files/backup_migrate/scheduled/test.txt,404,Not Found,7,237,224
+3841,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/app/etc/local.xml,404,Not Found,8,237,136
+3842,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/server.key,404,Not Found,7,281,122
+3843,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/privatekey.key,404,Not Found,6,281,130
+3844,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/myserver.key,404,Not Found,7,281,126
+3845,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/key.pem,404,Not Found,6,281,116
+3846,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/id_rsa,404,Not Found,7,237,114
+3847,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/id_dsa,404,Not Found,8,237,114
+3848,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.ssh/id_rsa,404,Not Found,7,237,124
+3849,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.ssh/id_dsa,404,Not Found,8,237,124
+3850,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/adminer.php,404,Not Found,8,281,124
+3851,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/vb_test.php,404,Not Found,8,281,124
+3852,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/CHANGELOG.txt,404,Not Found,9,237,128
+3853,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/sites/default/files/.ht.sqlite,404,Not Found,8,281,162
+3854,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/composer.json,404,Not Found,8,237,128
+3855,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/composer.lock,404,Not Found,7,281,128
+3856,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/vim_settings.xml,404,Not Found,7,237,134
+3857,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/server-info,404,Not Found,8,237,124
+3858,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/phpinfo.php,404,Not Found,8,281,124
+3859,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/info.php,404,Not Found,7,281,118
+3860,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/i.php,404,Not Found,9,281,112
+3861,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/test.php,404,Not Found,9,281,118
+3862,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/_wpeprivate/config.json,404,Not Found,10,237,148
+3863,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/_framework/blazor.boot.json,404,Not Found,10,237,156
+3864,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.hg,404,Not Found,9,281,108
+3865,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/.bzr,404,Not Found,8,281,110
+3866,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/._darcs,404,Not Found,8,281,116
+3867,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/BitKeeper,404,Not Found,9,237,120
+3868,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,2,237,102
+3869,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,7,237,106
+3870,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3871,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3872,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3873,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,4,237,102
+3874,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3875,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3876,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3877,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,4,237,102
+3878,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3879,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,7,237,106
+3880,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3881,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3882,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3883,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3884,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3885,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,4,237,102
+3886,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,7,150,114
+3887,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3888,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,9,237,106
+3889,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3890,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3891,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,26,141,28
+3892,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3893,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,26,141,28
+3894,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3895,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,2,237,102
+3896,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,9,178,129
+3897,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3898,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,9,150,114
+3899,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,8,237,106
+3900,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,13,237,122
+3901,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,4,99,0
+3902,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,6,178,129
+3903,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,6,237,102
+3904,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,7,237,106
+3905,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,2,99,0
+3906,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,8,150,114
+3907,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/payment/notification,200,OK,3,99,0
+3908,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,6,178,129
+3909,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,7,237,102
+3910,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,8,237,106
+3911,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,6,178,129
+3912,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3913,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,17,237,122
+3914,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,12,150,114
+3915,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,2,237,102
+3916,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3917,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,36,141,28
+3918,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3919,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3920,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3921,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,33,141,28
+3922,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+3923,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,15,237,106
+3924,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,5,237,102
+3925,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,5,178,129
+3926,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,6,150,114
+3927,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,39,141,28
+3928,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3929,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3930,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,7,237,106
+3931,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,4,178,129
+3932,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,12,237,122
+3933,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,4,150,114
+3934,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,2,178,129
+3935,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+3936,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,POST,http://localhost:8081/v1/order,400,Bad Request,5,150,114
+3937,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,9,237,106
+3938,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,28,141,28
+3939,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,27,141,28
+3940,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,9,178,129
+3941,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,11,237,122
+3942,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,11,237,106
+3943,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,3,178,129
+3944,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,28,141,28
+3945,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,8,237,122
+3946,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,6,237,106
+3947,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,7,237,106
+3948,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,7,237,122
+3949,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,25,141,28
+3950,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,26,141,28
+3951,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,6,237,122
+3952,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,6,237,106
+3953,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,5,237,122
+3954,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,5,237,106
+3955,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,25,141,28
+3956,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,5,237,122
+3957,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,5,237,122
+3958,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,17,141,28
+3959,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,17,141,28
+3960,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,5,237,122
+3961,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,16,141,28
+3963,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,13,141,28
+3962,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,13,141,28
+3964,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,15,141,28
+3965,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,12,141,28
+3966,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,12,141,28
+3967,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,13,141,28
+3968,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,11,141,28
+3969,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,11,141,28
+3970,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,10,141,28
+3971,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,10,141,28
+3972,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,10,141,28
+3973,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,12,141,28
+3974,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,11,141,28
+3975,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,11,141,28
+3976,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,12,141,28
+3977,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,12,141,28
+3978,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,12,141,28
+3979,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,11,141,28
+3980,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,DELETE,http://localhost:8081/v1/order,400,Bad Request,10,141,28
+3981,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,10,141,28
+3982,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,PATCH,http://localhost:8081/v1/order/10/PENDING,400,Bad Request,10,141,28
+3983,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order/10,400,Bad Request,10,141,28
+3984,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,2,237,102
+3985,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,3,237,106
+3986,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,2,178,129
+3987,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,4,237,122
+3988,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081,404,Not Found,3,237,102
+3989,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1,404,Not Found,4,237,106
+3990,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/order,405,Method Not Allowed,2,178,129
+3991,Mon Jul 29 21:58:15 BRT 2024,Mon Jul 29 21:58:15 BRT 2024,GET,http://localhost:8081/v1/payment,404,Not Found,4,237,122
