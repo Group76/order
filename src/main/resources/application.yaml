@@ -45,6 +45,6 @@ system:
     order-kitchen-notification: order-kitchen-notification.fifo
 
 mercadoPago:
-  userId: 39527093
-  testToken: TEST-2711072900051385-071120-43d1b88b15c40770b83c59cb08d8628f-39527093
-  externalPosId: SUC001
+  userId: ${mercadoPagoUserId}
+  testToken: ${mercadoPagoTestToken}
+  externalPosId: ${mercadoPagoExternalPosId}
