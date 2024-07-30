@@ -2,7 +2,6 @@ package com.group76.order.entities
 
 import jakarta.persistence.*
 import java.time.OffsetDateTime
-import java.util.UUID
 
 @Entity
 @Table(name = "orders")
@@ -23,7 +22,7 @@ data class OrderEntity (
 
     var cancelledReason: String? = null,
     var qrCode: String? = null,
-    val externalId: String
+    val externalId: String = ""
 ){
     fun updateStatus(status: OrderStatusEnum){
         this.status = status

@@ -4,6 +4,7 @@ import com.group76.order.controller.v1.mapping.UrlMapping
 import com.group76.order.entities.OrderStatusEnum
 import com.group76.order.entities.request.CancelOrderRequest
 import com.group76.order.entities.request.CreateOrderRequest
+import com.group76.order.entities.response.CancelResponse
 import com.group76.order.entities.response.GetOrderResponse
 import com.group76.order.usecases.ICancelOrderUseCase
 import com.group76.order.usecases.ICreateOrderUseCase
@@ -149,7 +150,7 @@ class OrderController(
         responses = [
             ApiResponse(
                 description = "OK", responseCode = "200", content = [
-                    Content(schema = Schema(implementation = GetOrderResponse::class))
+                    Content(schema = Schema(implementation = CancelResponse::class))
                 ]
             ),
             ApiResponse(

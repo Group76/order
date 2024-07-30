@@ -1,9 +1,9 @@
 package com.group76.order.entities.request
 
-import jakarta.validation.constraints.NotBlank
+import com.fasterxml.jackson.annotation.JsonIgnore
 import jakarta.validation.constraints.NotEmpty
 import jakarta.validation.constraints.NotNull
-import java.util.UUID
+import java.util.*
 
 data class CreateOrderItemRequest(
     @NotNull(message = "The product id is required")
@@ -14,6 +14,7 @@ data class CreateOrderItemRequest(
     @NotEmpty(message = "The product name is required.")
     val productName: String
 ){
+    @JsonIgnore
     fun getError(): String? {
         if(quantity <= 0) return "Items quantity is required"
         if(price <= 0) return "Items price is required"

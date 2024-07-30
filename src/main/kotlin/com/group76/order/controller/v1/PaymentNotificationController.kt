@@ -2,7 +2,6 @@ package com.group76.order.controller.v1
 
 import com.group76.order.controller.v1.mapping.UrlMapping
 import com.group76.order.entities.request.mercadoPago.PaymentNotificationRequest
-import com.group76.order.entities.response.GetOrderResponse
 import com.group76.order.usecases.IPaymentNotificationUseCase
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.media.Content
@@ -29,9 +28,7 @@ class PaymentNotificationController(
         description = "Payment Notification",
         responses = [
             ApiResponse(
-                description = "OK", responseCode = "200", content = [
-                    Content(schema = Schema(implementation = GetOrderResponse::class))
-                ]
+                description = "OK", responseCode = "200"
             ),
             ApiResponse(
                 description = "Bad Request", responseCode = "400", content = [
